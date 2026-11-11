@@ -1,0 +1,74 @@
+{
+  "routine": {
+    "A": {
+      "title": "Pecho y tríceps · G5000 Avanzada",
+      "focus": "Tempo, pre-fatiga y series descendentes en máquina",
+      "duration": "50–60 min",
+      "warm": "Movilidad de hombros, 1 serie de flexiones lentas y 2 series de aproximación en el press de pecho (40 % y 65 % de tu carga de trabajo). Anota la posición del pasador de cada ejercicio, porque la pila no trae pesos marcados.",
+      "items": [
+        ["Mariposa o aperturas en máquina (pre-fatiga)", "3 × 12–15", "fly", "Junta los brazos frente al pecho, pausa 2 segundos apretando y vuelve en 3 segundos hasta sentir el estiramiento.", "Es la serie de pre-fatiga: llega cerca del fallo para que el press siguiente exija más al pecho. Sin mariposa, usa aperturas con mancuernas en el suelo.", "60 s"],
+        ["Press de pecho en máquina con tempo 3-1-1", "4 × 6–8", "press", "Baja la carga en 3 segundos, pausa 1 segundo con el pecho estirado y empuja con fuerza en 1 segundo.", "Carga más alta que en la rutina anterior, con 1 repetición en reserva. Hombros abajo y atrás, sin bloquear los codos.", "120 s"],
+        ["Press de pecho unilateral con pausa", "3 × 8–10 por lado", "press", "Empuja una sola empuñadura, pausa 1 segundo arriba y baja controlado sin rotar el tronco.", "Si la máquina no permite trabajar por separado, usa una mancuerna en el suelo. Abdomen firme.", "75–90 s"],
+        ["Flexión con pausa + flexión diamante (superserie)", "3 × 10 + al fallo técnico", "push", "Haz 10 flexiones con pausa de 1 segundo abajo y, sin descanso, flexiones diamante hasta perder la técnica.", "Si es muy exigente, apoya las rodillas o eleva las manos en el banco. Cuerpo recto.", "90 s"],
+        ["Extensión de tríceps en polea alta (serie descendente)", "3 × 10 + 8 + 8", "push", "Haz 10 repeticiones, baja el pasador 2–3 posiciones y haz 8 más, baja de nuevo y haz 8 finales, sin descanso.", "Codos pegados al cuerpo; solo se mueve el antebrazo. Recorrido completo.", "75 s"],
+        ["Extensión de tríceps sobre la cabeza a una mano", "3 × 10–12 por lado", "shoulder", "Con una mancuerna, baja detrás de la cabeza y extiende. Con la otra mano sujeta el codo.", "Codo fijo apuntando al techo; sin arquear la zona lumbar.", "60 s"]
+      ]
+    },
+    "B": {
+      "title": "Espalda y bíceps · G5000 Avanzada",
+      "focus": "Tracción pesada, pausas y tensión continua",
+      "duration": "50–60 min",
+      "warm": "Retracciones escapulares, movilidad torácica y 2 series de aproximación en el jalón al pecho. Ajusta la cadena de la polea alta para tener el recorrido completo.",
+      "items": [
+        ["Jalón al pecho con pausa de 2 s", "4 × 6–8", "row", "Tira de la barra hacia la parte alta del pecho, sostén 2 segundos apretando la espalda y sube en 3 segundos.", "Carga más exigente que en la rutina anterior. No te inclines hacia atrás ni tires con impulso.", "120 s"],
+        ["Remo bajo sentado con tempo 1-2-3", "4 × 8–10", "row", "Tira hacia el abdomen, sostén 2 segundos juntando las escápulas y vuelve en 3 segundos.", "Tronco quieto y pecho abierto. Hombros lejos de las orejas.", "90–120 s"],
+        ["Remo unilateral en polea baja", "3 × 10 por lado", "row", "Tira con una sola mano rotando levemente la muñeca al final y vuelve controlado.", "Sin girar el tronco. Siente el trabajo del dorsal, no del bíceps.", "75 s"],
+        ["Jalón agarre neutro + face pull (superserie)", "3 × 10 + 15", "fly", "Haz 10 jalones con agarre neutro y sin descanso 15 face pulls con cuerda abriendo los codos.", "Face pull con peso ligero. Controla ambos movimientos.", "90 s"],
+        ["Curl de bíceps 21s en polea baja", "2 × 21", "curl", "7 repeticiones de la mitad inferior, 7 de la mitad superior y 7 completas, seguidas.", "Usa menos peso que en un curl normal. Codos fijos.", "90 s"],
+        ["Curl martillo (serie descendente)", "2 × 8 + 8 + 8", "curl", "Haz 8 repeticiones, suelta peso o usa una mancuerna más ligera, haz 8 más, suelta de nuevo y haz 8 finales.", "Tronco quieto; baja en 2 segundos.", "75 s"]
+      ]
+    },
+    "C": {
+      "title": "Piernas y glúteos · G5000 Avanzada",
+      "focus": "Unilateral, tempo y volumen de cuádriceps y glúteo",
+      "duration": "55–65 min",
+      "warm": "Camina en el sitio 2 minutos, sentadillas sin peso, bisagras de cadera y puentes de glúteos suaves. Si tu máquina no tiene alguna estación de piernas, usa el reemplazo indicado en los puntos clave.",
+      "items": [
+        ["Sentadilla búlgara con mancuernas", "4 × 8–10 por pierna", "lunge", "Pie trasero apoyado en el banco o una silla firme. Baja con el torso ligeramente inclinado y sube empujando con la pierna delantera.", "Rodilla alineada con el pie; apoyo estable. Reduce el rango si pierdes el equilibrio.", "90–120 s"],
+        ["Prensa de piernas o sentadilla goblet con tempo 4-1-1", "4 × 8–10", "squat", "Baja en 4 segundos, pausa 1 segundo abajo y sube con fuerza. Sin prensa, haz sentadilla goblet con una mancuerna pegada al pecho.", "No bloquees las rodillas arriba. Peso repartido en todo el pie.", "120 s"],
+        ["Peso muerto rumano a una pierna", "3 × 8–10 por pierna", "hinge", "Con una mancuerna, inclina el torso llevando la pierna libre atrás y sube apretando el glúteo.", "Cadera cuadrada y espalda neutra. Apóyate con una mano si hace falta.", "90 s"],
+        ["Extensión de piernas con pausa + curl de piernas (superserie)", "3 × 12 + 10", "squat", "Haz 12 extensiones con pausa de 1 segundo arriba y sin descanso 10 curls de piernas. Sin máquinas, usa sentadilla con pausa y peso muerto rumano.", "Sin patadas ni impulso en ninguno. Baja lento en ambos.", "90 s"],
+        ["Puente de glúteos a una pierna con mancuerna", "3 × 10–12 por lado", "hinge", "Con la mancuerna sobre la cadera, eleva la pelvis sobre una pierna y pausa 2 segundos arriba.", "Aprieta el glúteo; no hiperextiendas la zona lumbar.", "60–75 s"],
+        ["Elevación de talones a una pierna", "3 × 12–15 por lado", "squat", "Sobre un pie, sube con pausa de 1 segundo arriba y baja lento hasta sentir estiramiento. Sujeta una mancuerna.", "Apóyate con la mano libre; sin rebotes.", "45–60 s"]
+      ]
+    },
+    "D": {
+      "title": "Hombros y abdomen · G5000 Avanzada",
+      "focus": "Volumen de deltoides y core anti-rotación",
+      "duration": "45–55 min",
+      "warm": "Círculos de hombros, rotaciones externas sin peso o con polea ligera y respiración abdominal.",
+      "items": [
+        ["Press de hombros en máquina con tempo 3-0-1", "4 × 6–10", "shoulder", "Baja en 3 segundos hasta la altura de las orejas y empuja con fuerza sin bloquear los codos.", "Si usas mancuernas, prueba el press Arnold. Abdomen firme y sin arquear la espalda.", "90–120 s"],
+        ["Elevación lateral en polea con pausa", "4 × 12–15", "fly", "Eleva el brazo hasta la altura del hombro, pausa 1 segundo y baja en 3 segundos.", "Peso ligero y técnica limpia; sin balanceo. También sirve con mancuernas.", "60 s"],
+        ["Pájaros en mariposa inversa o inclinados", "3 × 12–15", "fly", "Abre los brazos hacia atrás apretando la espalda alta y pausa 1 segundo.", "Sin encoger los hombros; peso ligero.", "60 s"],
+        ["Elevación frontal + encogimientos (superserie)", "3 × 10 + 12", "shoulder", "Haz 10 elevaciones frontales alternas y sin descanso 12 encogimientos de hombros.", "Controla ambos movimientos; no hagas círculos con los hombros.", "75 s"],
+        ["Plancha con toque de hombro", "3 × 10 toques por lado", "plank", "En plancha alta, toca el hombro contrario con una mano sin girar la cadera.", "Separa algo más los pies para estabilizar. Abdomen apretado.", "45–60 s"],
+        ["Crunch en polea alta + dead bug (superserie)", "3 × 12 + 8 por lado", "plank", "Haz 12 crunch de rodillas con la cuerda y luego dead bugs lentos sin despegar la zona lumbar del suelo.", "El movimiento sale del abdomen. Si la espalda se arquea, reduce el recorrido.", "60 s"]
+      ]
+    },
+    "E": {
+      "title": "Funcional y cardio · G5000 Avanzada",
+      "focus": "Circuito metabólico de cuerpo completo",
+      "duration": "35–45 min",
+      "warm": "Marcha rápida 3 minutos, movilidad de cadera y hombros y 1 vuelta ligera del circuito. Usa cargas moderadas: la clave es mantener el ritmo con buena técnica.",
+      "items": [
+        ["Circuito 1: press de pecho en máquina", "4 rondas × 40 s trabajo / 20 s pausa", "press", "Ritmo constante y controlado con una carga moderada, sin bloquear los codos.", "Si la técnica se rompe, baja la carga o el ritmo.", "60 s"],
+        ["Circuito 2: jalón al pecho rápido", "4 rondas × 40 s trabajo / 20 s pausa", "row", "Tira hacia el pecho con ritmo vivo, hombros abajo y espalda recta.", "Sin impulso del tronco.", "60 s"],
+        ["Circuito 3: sentadilla con mancuernas", "4 rondas × 40 s trabajo / 20 s pausa", "squat", "Sentadilla con una mancuerna en cada mano a los lados, con ritmo constante.", "Rodillas siguen la dirección de los pies; profundidad sin dolor.", "60 s"],
+        ["Circuito 4: swing con mancuerna", "4 rondas × 40 s trabajo / 20 s pausa", "swing", "Impulsa la mancuerna con la cadera hasta el pecho, sin elevarla con los brazos.", "Solo si dominas la bisagra; si no, sustituye por peso muerto rumano.", "60 s"],
+        ["Marcha rápida o pasos laterales (finisher)", "6–8 min", "march", "Mantén un ritmo vivo y constante para bajar las pulsaciones de forma activa.", "Aumenta la intensidad gradualmente.", "—"],
+        ["Bird-dog con pausa", "3 × 8 por lado", "plank", "Extiende brazo y pierna contrarios y pausa 3 segundos antes de cambiar.", "Cadera estable, sin rotar el tronco.", "30–45 s"]
+      ]
+    }
+  }
+}
