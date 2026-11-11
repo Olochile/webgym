@@ -1,0 +1,74 @@
+{
+  "routine": {
+    "A": {
+      "title": "Pecho y tríceps · Home Gym G5000",
+      "focus": "Empuje en máquina · pila de 68 kg",
+      "duration": "40–50 min",
+      "warm": "Movilidad de hombros y 2 series de aproximación con el 40–50 % de tu carga de trabajo en el press de pecho. Anota en qué posición del pasador queda cada ejercicio, porque la pila no trae pesos marcados.",
+      "items": [
+        ["Press de pecho en máquina", "4 × 8–12", "press", "Ajusta el asiento para que las empuñaduras queden a la altura del pecho. Espalda pegada al respaldo, empuja sin bloquear los codos y vuelve en 2–3 segundos.", "Hombros abajo y atrás; muñecas rectas. Elige una carga que deje 2 repeticiones en reserva.", "90 s"],
+        ["Mariposa o aperturas en máquina", "3 × 12–15", "fly", "Con los codos ligeramente flexionados, junta los brazos frente al pecho, pausa 1 segundo y vuelve controlado hasta sentir estiramiento.", "No dejes que la pila golpee al volver. Si tu equipo no trae mariposa, usa aperturas con mancuernas en el suelo.", "60–75 s"],
+        ["Press de pecho unilateral", "3 × 10 por lado", "press", "Empuja una sola empuñadura a la vez, con el tronco quieto y el abdomen firme.", "Si la máquina no permite trabajar por separado, hazlo con las dos manos y baja un poco la carga.", "75 s"],
+        ["Flexiones con manos elevadas", "3 × 8–12", "push", "Apoya las manos en una barra firme o en el banco y baja el pecho hacia el apoyo con el cuerpo recto.", "No hundas la zona lumbar. Para hacerlo más difícil, apoya las manos más abajo.", "60–75 s"],
+        ["Extensión de tríceps en polea alta", "3 × 10–15", "push", "Con codos pegados al cuerpo, empuja la barra o cuerda hacia abajo hasta extender los brazos y sube controlado.", "Solo se mueve el antebrazo. Si la polea alta es limitada, ajusta la cadena para tener recorrido completo.", "60 s"],
+        ["Extensión de tríceps sobre la cabeza con mancuerna", "3 × 10–12", "shoulder", "Sujeta una mancuerna con ambas manos, baja detrás de la cabeza y extiende sin arquear la espalda.", "Codos apuntando al frente; abdomen firme.", "60 s"]
+      ]
+    },
+    "B": {
+      "title": "Espalda y bíceps · Home Gym G5000",
+      "focus": "Tracción en polea · postura",
+      "duration": "40–50 min",
+      "warm": "Retracciones escapulares sin carga y 2 series ligeras de jalón al pecho. Ajusta la cadena de la polea alta para tener el recorrido completo.",
+      "items": [
+        ["Jalón al pecho en polea alta", "4 × 8–12", "row", "Agarra la barra un poco más ancha que los hombros, saca el pecho y tira hacia la parte alta del pecho llevando los codos hacia abajo.", "No te inclines hacia atrás ni tires con impulso. Sube controlado hasta estirar los dorsales.", "90 s"],
+        ["Remo bajo sentado en polea", "4 × 10–12", "row", "Siéntate con la espalda recta y tira del agarre hacia el abdomen, juntando las escápulas; vuelve despacio.", "Evita balancear el tronco. Mantén el pecho abierto y los hombros lejos de las orejas.", "90 s"],
+        ["Jalón con agarre neutro o estrecho", "3 × 10–12", "row", "Usa el agarre triangular o las palmas enfrentadas y tira hacia el pecho con los codos cerca del cuerpo.", "Controla la subida durante 2 segundos.", "75 s"],
+        ["Face pull en polea alta con cuerda", "3 × 12–15", "fly", "Tira de la cuerda hacia la cara abriendo los codos hacia los lados, con las manos separándose al final.", "Peso ligero; sirve para postura y hombro posterior.", "60 s"],
+        ["Curl de bíceps en polea baja con barra", "3 × 10–12", "curl", "Codos pegados al torso, flexiona sin mover el tronco y baja en 2 segundos.", "Si tu equipo tiene predicador, úsalo con una carga más ligera.", "60 s"],
+        ["Curl martillo con mancuernas o cuerda", "3 × 10–12", "curl", "Palmas enfrentadas, flexiona los codos manteniendo esa posición y baja controlado.", "No balancees la espalda.", "60 s"]
+      ]
+    },
+    "C": {
+      "title": "Piernas y glúteos · Home Gym G5000",
+      "focus": "Fuerza de tren inferior",
+      "duration": "40–50 min",
+      "warm": "Camina en el sitio 2 minutos, haz sentadillas sin peso y bisagras de cadera suaves. Si tu máquina no tiene alguna estación de piernas, usa el reemplazo indicado en los puntos clave.",
+      "items": [
+        ["Prensa de piernas o sentadilla goblet", "4 × 10–12", "squat", "En la prensa, empuja con todo el pie sin bloquear las rodillas. Sin prensa, haz sentadilla goblet con una mancuerna pegada al pecho.", "Rodillas siguen la dirección de los pies; baja hasta una profundidad cómoda.", "90–120 s"],
+        ["Extensión de piernas en máquina", "3 × 12–15", "squat", "Sentado, extiende las rodillas hasta casi estirarlas, pausa 1 segundo y baja lento.", "Sin patadas ni impulso. Si no tienes la estación, haz sentadilla con pausa de 2 segundos abajo.", "60–75 s"],
+        ["Curl de piernas en máquina o peso muerto rumano", "3 × 10–12", "hinge", "Flexiona las rodillas llevando los talones hacia los glúteos y vuelve controlado. Sin máquina, haz peso muerto rumano con mancuernas.", "En el peso muerto rumano la espalda no se redondea y el movimiento nace de la cadera.", "75–90 s"],
+        ["Zancada atrás con mancuernas", "3 × 8–10 por pierna", "lunge", "Da un paso atrás, baja con control hasta que ambas rodillas queden cerca de 90° y vuelve alternando piernas.", "Usa apoyo cercano si necesitas equilibrio; rodilla delantera estable.", "75–90 s"],
+        ["Puente de glúteos con mancuerna", "3 × 12–15", "hinge", "Tumbado boca arriba, con la mancuerna sobre la cadera, eleva la pelvis y pausa 2 segundos arriba.", "Aprieta los glúteos sin hiperextender la zona lumbar.", "60–75 s"],
+        ["Elevación de talones de pie", "3 × 15–20", "squat", "Sube los talones lentamente, pausa arriba y baja hasta un estiramiento cómodo. Puedes sujetar mancuernas.", "Usa apoyo para el equilibrio y evita rebotes.", "45–60 s"]
+      ]
+    },
+    "D": {
+      "title": "Hombros y abdomen · Home Gym G5000",
+      "focus": "Estabilidad y control",
+      "duration": "35–45 min",
+      "warm": "Círculos de hombros, elevaciones de brazos sin peso y respiración abdominal.",
+      "items": [
+        ["Press de hombros en máquina o con mancuernas", "3 × 8–12", "shoulder", "Desde la altura de los hombros, empuja hacia arriba sin bloquear los codos y baja controlado.", "Abdomen firme y sin arquear la espalda. Si molesta el hombro, reduce el rango o la carga.", "75–90 s"],
+        ["Elevación lateral en polea baja o con mancuernas", "3 × 12–15", "fly", "Eleva el brazo hacia el lado hasta la altura del hombro con el codo suave y baja despacio.", "Peso ligero; evita balancear el tronco.", "60 s"],
+        ["Pájaros en mariposa inversa o con mancuernas", "3 × 12–15", "fly", "Brazos a la altura de los hombros, ábrelos hacia atrás apretando la espalda alta y vuelve controlado.", "No encojas los hombros; usa poco peso.", "60 s"],
+        ["Encogimientos de hombros con mancuernas", "3 × 12–15", "curl", "Con los brazos largos, sube los hombros hacia las orejas, pausa y baja sin girarlos.", "Cuello relajado; sin círculos.", "45–60 s"],
+        ["Plancha", "3 × 20–45 s", "plank", "Apoya antebrazos y puntas de pies manteniendo una línea recta de cabeza a talones.", "No dejes caer la cadera ni aguantes la respiración.", "45–60 s"],
+        ["Crunch en polea alta o dead bug", "3 × 12–15", "plank", "De rodillas frente a la polea, flexiona el tronco llevando los codos hacia las rodillas. Sin polea, haz dead bug lento.", "El movimiento sale del abdomen, no de la cadera.", "45–60 s"]
+      ]
+    },
+    "E": {
+      "title": "Funcional y cardio · Home Gym G5000",
+      "focus": "Circuito de cuerpo completo con carga ligera",
+      "duration": "30–40 min",
+      "warm": "Marcha rápida 3 minutos, movilidad de cadera y hombros. Usa cargas ligeras: el objetivo es mantener el ritmo, no el máximo peso.",
+      "items": [
+        ["Marcha rápida en el sitio", "3 × 60 s", "march", "Marcha con postura alta moviendo los brazos y aumenta el ritmo sin perder control.", "Debe permitirte hablar en frases cortas.", "30–45 s"],
+        ["Press de pecho ligero en máquina", "3 × 15", "press", "Usa una carga ligera con el ritmo constante y sin bloquear los codos.", "Mantén el control durante toda la serie.", "45–60 s"],
+        ["Jalón al pecho ligero", "3 × 15", "row", "Carga moderada-baja, tirando hacia el pecho con los hombros abajo.", "Sin impulso con el tronco.", "45–60 s"],
+        ["Sentadilla con peso corporal", "3 × 12–15", "squat", "Baja hasta una profundidad cómoda y sube repartiendo el peso en todo el pie.", "Prioriza la técnica; no hace falta saltar.", "45–60 s"],
+        ["Remo bajo sentado ligero", "3 × 15", "row", "Tira del agarre hacia el abdomen con la espalda recta y vuelve despacio.", "Evita balancear el tronco.", "45–60 s"],
+        ["Bird-dog", "2–3 × 8 por lado", "plank", "En cuatro apoyos, extiende brazo y pierna contrarios, pausa un instante y cambia de lado.", "Cadera estable, sin girar el tronco.", "30–45 s"]
+      ]
+    }
+  }
+}
