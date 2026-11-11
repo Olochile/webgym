@@ -1,0 +1,36 @@
+{
+  "routine": {
+    "A": {
+      "title": "Pecho y tríceps",
+      "focus": "Rutina personalizada",
+      "duration": "35–45 min",
+      "warm": "Calentamiento",
+      "items": [
+        [
+          "Nombre del ejercicio",
+          "3 × 10–12",
+          "press",
+          "Cómo hacerlo",
+          "Puntos técnicos",
+          "60 s"
+        ]
+      ]
+    },
+    "B": {
+      "title": "Espalda y bíceps",
+      "items": []
+    },
+    "C": {
+      "title": "Piernas y glúteos",
+      "items": []
+    },
+    "D": {
+      "title": "Hombros y abdomen",
+      "items": []
+    },
+    "E": {
+      "title": "Funcional y cardio",
+      "items": []
+    }
+  }
+}

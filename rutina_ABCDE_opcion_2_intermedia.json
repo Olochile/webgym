@@ -1,0 +1,244 @@
+{
+  "routine": {
+    "A": {
+      "title": "Piernas y glúteos · opción 2",
+      "focus": "Tren inferior · nivel intermedio",
+      "duration": "40–50 min",
+      "warm": "Marcha, movilidad de cadera y tobillos y sentadillas sin peso durante 5–8 minutos.",
+      "items": [
+        [
+          "Sentadilla goblet con pausa",
+          "4 × 10–12",
+          "squat",
+          "Sostén una mancuerna junto al pecho. Baja, pausa 1 segundo y sube con control.",
+          "Pies firmes y rodillas alineadas con los pies.",
+          "90 s"
+        ],
+        [
+          "Peso muerto rumano",
+          "4 × 10–12",
+          "hinge",
+          "Lleva la cadera atrás y desliza las mancuernas cerca de las piernas; vuelve extendiendo la cadera.",
+          "Espalda neutra; no conviertas el movimiento en sentadilla.",
+          "90–120 s"
+        ],
+        [
+          "Zancada atrás alterna",
+          "3 × 10 por pierna",
+          "lunge",
+          "Da un paso atrás, desciende con control y vuelve a la posición inicial.",
+          "Usa apoyo si lo necesitas; rodilla estable.",
+          "75–90 s"
+        ],
+        [
+          "Puente de glúteos con mancuerna",
+          "4 × 12–15",
+          "hinge",
+          "Boca arriba, coloca una mancuerna protegida sobre la cadera y eleva la pelvis.",
+          "Aprieta glúteos arriba sin arquear la zona lumbar.",
+          "60–90 s"
+        ],
+        [
+          "Elevación de talones a una pierna",
+          "3 × 12–15 por lado",
+          "squat",
+          "Sujétate de una pared, sube el talón y baja lentamente.",
+          "Sin rebotes; usa una mancuerna ligera solo si mantienes el equilibrio.",
+          "45–60 s"
+        ]
+      ]
+    },
+    "B": {
+      "title": "Pecho, hombros y tríceps · opción 2",
+      "focus": "Empuje · nivel intermedio",
+      "duration": "40–50 min",
+      "warm": "Movilidad de hombros y muñecas, flexiones fáciles y una serie ligera de press.",
+      "items": [
+        [
+          "Press de pecho con mancuernas en el suelo",
+          "4 × 10–12",
+          "press",
+          "Tumbado boca arriba, baja los codos suavemente al suelo y empuja las mancuernas arriba.",
+          "Muñecas sobre los codos; no choques las mancuernas.",
+          "75–90 s"
+        ],
+        [
+          "Flexiones",
+          "3 × 8–15",
+          "push",
+          "Mantén el cuerpo alineado, baja el pecho hacia el suelo y empuja.",
+          "Eleva las manos sobre una superficie firme si pierdes la técnica.",
+          "60–90 s"
+        ],
+        [
+          "Press de hombros",
+          "3 × 8–12",
+          "shoulder",
+          "Desde la altura de los hombros, empuja las mancuernas arriba y baja controladamente.",
+          "No arquees la espalda; reduce el rango si molesta.",
+          "75–90 s"
+        ],
+        [
+          "Elevación lateral",
+          "3 × 12–15",
+          "fly",
+          "Eleva las mancuernas hacia los lados con codos ligeramente flexionados.",
+          "Usa carga ligera y no balancees el torso.",
+          "60 s"
+        ],
+        [
+          "Extensión de tríceps por encima de la cabeza",
+          "3 × 10–12",
+          "shoulder",
+          "Sujeta una mancuerna con ambas manos, baja detrás de la cabeza y extiende los codos.",
+          "Abdomen firme y codos apuntando al frente.",
+          "60 s"
+        ]
+      ]
+    },
+    "C": {
+      "title": "Espalda y bíceps · opción 2",
+      "focus": "Tracción · nivel intermedio",
+      "duration": "40–50 min",
+      "warm": "Movilidad torácica, retracciones escapulares y bisagra de cadera sin peso.",
+      "items": [
+        [
+          "Remo inclinado con dos mancuernas",
+          "4 × 10–12",
+          "row",
+          "Inclina el torso desde la cadera y lleva las mancuernas hacia las costillas.",
+          "Espalda larga, abdomen activo y sin tirones.",
+          "90 s"
+        ],
+        [
+          "Remo unilateral con pausa",
+          "3 × 10–12 por lado",
+          "row",
+          "Apoya la mano libre en una silla estable; rema hacia la cadera y pausa 1 segundo.",
+          "No gires el torso ni encojas el hombro.",
+          "60–90 s"
+        ],
+        [
+          "Pájaros inclinado",
+          "3 × 12–15",
+          "fly",
+          "Inclina el torso y abre los brazos hacia los lados con codos suaves.",
+          "Carga ligera y cuello relajado.",
+          "60 s"
+        ],
+        [
+          "Curl martillo alterno",
+          "3 × 10–12 por lado",
+          "curl",
+          "Con palmas enfrentadas, flexiona un codo a la vez.",
+          "No balancees el cuerpo; baja en 2 segundos.",
+          "60 s"
+        ],
+        [
+          "Curl de bíceps con descenso lento",
+          "3 × 8–10",
+          "curl",
+          "Sube controladamente y tarda 3 segundos en bajar las mancuernas.",
+          "Usa un peso que puedas controlar durante toda la bajada.",
+          "60–75 s"
+        ]
+      ]
+    },
+    "D": {
+      "title": "Cadena posterior y abdomen · opción 2",
+      "focus": "Glúteos, isquiotibiales y estabilidad",
+      "duration": "35–45 min",
+      "warm": "Marcha suave, movilidad de cadera y 8 bisagras de cadera sin carga.",
+      "items": [
+        [
+          "Peso muerto rumano en postura escalonada",
+          "3 × 10 por lado",
+          "hinge",
+          "Coloca un pie ligeramente atrás y lleva la cadera hacia atrás con las mancuernas cerca de las piernas.",
+          "La mayor parte del peso va en la pierna delantera; espalda neutra.",
+          "75–90 s"
+        ],
+        [
+          "Sentadilla sumo con mancuerna",
+          "3 × 12–15",
+          "squat",
+          "Pies algo más abiertos que los hombros y puntas ligeramente hacia fuera; baja con control.",
+          "Rodillas en la dirección de los pies; rango cómodo.",
+          "75 s"
+        ],
+        [
+          "Puente de glúteos con pausa",
+          "3 × 15",
+          "hinge",
+          "Eleva la pelvis y mantén la contracción 2 segundos antes de bajar.",
+          "No empujes con la zona lumbar.",
+          "60 s"
+        ],
+        [
+          "Dead bug",
+          "3 × 8–10 por lado",
+          "plank",
+          "Boca arriba, extiende brazo y pierna contrarios sin despegar la zona lumbar.",
+          "Reduce el recorrido si la espalda se arquea.",
+          "45–60 s"
+        ],
+        [
+          "Plancha lateral",
+          "3 × 20–40 s por lado",
+          "plank",
+          "Apoya el antebrazo y las rodillas o los pies; eleva la cadera y mantén la línea corporal.",
+          "Respira con normalidad y no dejes caer la cadera.",
+          "45–60 s"
+        ]
+      ]
+    },
+    "E": {
+      "title": "Funcional de cuerpo completo · opción 2",
+      "focus": "Circuito de fuerza y resistencia",
+      "duration": "25–35 min",
+      "warm": "Marcha 3 minutos y una ronda suave de sentadillas, remos sin peso y bisagras de cadera.",
+      "items": [
+        [
+          "Sentadilla goblet",
+          "3 × 12",
+          "squat",
+          "Sostén una mancuerna junto al pecho, baja con control y sube.",
+          "Peso repartido en todo el pie.",
+          "45–60 s"
+        ],
+        [
+          "Remo inclinado con mancuernas",
+          "3 × 12",
+          "row",
+          "Inclina el torso y lleva las mancuernas hacia las costillas.",
+          "No redondees la espalda ni uses impulso.",
+          "45–60 s"
+        ],
+        [
+          "Press de pecho en el suelo",
+          "3 × 10–12",
+          "press",
+          "Baja las mancuernas hasta el suelo suavemente y empuja hacia arriba.",
+          "Muñecas alineadas con los codos.",
+          "45–60 s"
+        ],
+        [
+          "Marcha rápida con mancuernas ligeras",
+          "3 × 40–60 s",
+          "march",
+          "Marcha en el sitio con peso ligero o sin peso si afecta tu postura.",
+          "Espacio despejado y hombros relajados.",
+          "45 s"
+        ],
+        [
+          "Bird-dog",
+          "2–3 × 10 por lado",
+          "plank",
+          "En cuatro apoyos, extiende brazo y pierna contrarios y alterna.",
+          "Cadera estable; no gires el tronco.",
+          "30–45 s"
+        ]
+      ]
+    }
+  }
+}

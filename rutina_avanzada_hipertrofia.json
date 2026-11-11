@@ -1,0 +1,74 @@
+{
+  "routine": {
+    "A": {
+      "title": "Pecho y tríceps · Hipertrofia avanzada",
+      "focus": "Tempo, unilateral y superseries",
+      "duration": "45–55 min",
+      "warm": "Movilidad de hombros, 2 series de flexiones lentas y 1 serie ligera de press en el suelo con tempo.",
+      "items": [
+        ["Press en suelo con tempo 3-1-1", "4 × 8–10", "press", "Baja en 3 segundos hasta tocar el suelo con los codos, pausa de 1 segundo y empuja con fuerza en 1 segundo.", "Usa una carga con la que la última repetición quede a 1–2 en reserva. Muñecas rígidas.", "90 s"],
+        ["Press unilateral con una mancuerna", "3 × 8–10 por lado", "press", "Tumbado con una sola mancuerna, la otra mano en el abdomen. Mantén el tronco sin rotar mientras empujas.", "El abdomen trabaja para evitar que el cuerpo gire. Controla la bajada.", "75 s"],
+        ["Superserie: flexión con pausa + apertura", "3 × 10 + 12", "push", "Haz 10 flexiones con pausa de 1 s abajo y sin descanso pasa a 12 aperturas en el suelo.", "Si no llegas a 10 flexiones, apoya las rodillas. Aperturas con peso ligero.", "90 s"],
+        ["Squeeze press (mancuernas juntas)", "3 × 10–12", "press", "Junta las mancuernas y presiónalas una contra otra durante todo el recorrido del press.", "La tensión entre las mancuernas activa el pecho interno. Hombros abajo y atrás.", "60 s"],
+        ["Extensión de tríceps sobre la cabeza a una mano", "3 × 10–12 por lado", "shoulder", "Con una mancuerna, baja detrás de la cabeza y extiende. Con la otra mano sujeta el codo.", "Codo fijo apuntando al techo; no arquees la zona lumbar.", "60 s"],
+        ["Fondos en silla + patada de tríceps (drop set)", "2 × al fallo técnico + 12", "row", "Haz fondos de tríceps en una silla firme hasta casi el fallo, y enseguida 12 patadas de tríceps con mancuerna ligera.", "Hombros lejos de las orejas; no bajes más de lo cómodo. Si el hombro molesta, omite los fondos.", "75 s"]
+      ]
+    },
+    "B": {
+      "title": "Espalda y bíceps · Hipertrofia avanzada",
+      "focus": "Pausas, unilateral y tensión continua",
+      "duration": "45–55 min",
+      "warm": "Retracciones escapulares, movilidad torácica y 1 serie ligera de remo inclinado.",
+      "items": [
+        ["Remo inclinado con pausa de 2 s", "4 × 8–10", "row", "Lleva las mancuernas a las costillas, sostén 2 segundos apretando escápulas y baja en 3 segundos.", "Torso estable, espalda larga. Sin impulso de cadera.", "90 s"],
+        ["Remo unilateral con tempo 1-1-3", "3 × 10 por lado", "row", "Apoya una mano en una silla firme. Sube, pausa 1 s y baja en 3 segundos.", "Codo cerca del cuerpo; tira desde la espalda, no desde el bíceps.", "75 s"],
+        ["Pullover con mancuerna en el suelo", "3 × 12", "fly", "Tumbado, sostén una mancuerna con ambas manos y llévala por encima de la cabeza con codos suavemente flexionados; vuelve al pecho.", "Rango cómodo sin arquear la espalda. Siente el estiramiento en los dorsales.", "75 s"],
+        ["Pájaros inclinados con pausa", "3 × 12–15", "fly", "Torso inclinado, abre los brazos hasta la altura de la espalda y pausa 1 segundo arriba.", "Peso ligero; sin encoger los hombros.", "60 s"],
+        ["Curl de bíceps 21s", "2 × 21", "curl", "7 repeticiones de la mitad inferior, 7 de la mitad superior y 7 completas, todas seguidas.", "Usa menos peso que en un curl normal. Codos fijos.", "90 s"],
+        ["Curl martillo + curl alterno (drop set)", "2 × 10 + 10", "curl", "Haz 10 curl martillo, suelta peso o usa una mancuerna más ligera y haz 10 curl alternos sin descanso.", "Tronco quieto; baja en 2 segundos.", "75 s"]
+      ]
+    },
+    "C": {
+      "title": "Piernas y glúteos · Hipertrofia avanzada",
+      "focus": "Unilateral y tensión bajo tempo",
+      "duration": "50–60 min",
+      "warm": "Caminata en el sitio 2 min, sentadillas sin peso, bisagras y puentes de glúteos suaves.",
+      "items": [
+        ["Sentadilla búlgara", "4 × 8–10 por pierna", "lunge", "Pie trasero apoyado en una silla firme. Baja con el torso ligeramente inclinado y sube empujando con la pierna delantera.", "Rodilla alineada con el pie; apoyo estable. Reduce el rango si pierdes equilibrio.", "90 s"],
+        ["Sentadilla goblet con tempo 4-1-1", "3 × 10", "squat", "Baja en 4 segundos con la mancuerna al pecho, pausa 1 s abajo y sube con fuerza.", "Peso repartido en todo el pie; pecho alto.", "90 s"],
+        ["Peso muerto rumano a una pierna", "3 × 8–10 por pierna", "hinge", "Con una mancuerna, inclina el torso llevando la pierna libre atrás. Sube apretando el glúteo.", "Cadera cuadrada, espalda neutra. Apóyate con una mano si hace falta.", "90 s"],
+        ["Puente de glúteos a una pierna con mancuerna", "3 × 10–12 por lado", "hinge", "Con la mancuerna sobre la cadera, eleva la pelvis sobre una pierna y pausa 2 s arriba.", "Aprieta el glúteo; no hiperextiendas la zona lumbar.", "60 s"],
+        ["Zancadas caminando", "3 × 10 pasos por pierna", "lunge", "Avanza dando zancadas largas con las mancuernas a los lados, con control en cada paso.", "Paso suficientemente largo; torso erguido.", "75 s"],
+        ["Elevación de talones a una pierna", "3 × 12–15 por lado", "squat", "Sobre un pie, sube con pausa de 1 s arriba y baja lento hasta sentir estiramiento. Sujeta una mancuerna.", "Apóyate con la mano libre; sin rebotes.", "45–60 s"]
+      ]
+    },
+    "D": {
+      "title": "Hombros y abdomen · Hipertrofia avanzada",
+      "focus": "Volumen de deltoides y core anti-rotación",
+      "duration": "40–50 min",
+      "warm": "Círculos de hombros, rotaciones externas con banda o sin peso y respiración abdominal.",
+      "items": [
+        ["Press Arnold", "4 × 8–12", "shoulder", "Empieza con las palmas hacia ti a la altura del pecho; rota las muñecas mientras empujas hacia arriba y reverse al bajar.", "Abdomen firme; rango sin dolor. Si molesta el hombro, usa el press normal.", "75–90 s"],
+        ["Elevación lateral con pausa", "4 × 12–15", "fly", "Eleva hasta la altura de los hombros, pausa 1 segundo y baja en 3 segundos.", "Peso ligero y técnica limpia; codos suaves.", "60 s"],
+        ["Elevación lateral inclinada (deltoide posterior)", "3 × 12–15", "fly", "Torso inclinado, eleva los brazos hacia los lados apretando la parte posterior del hombro.", "Sin balanceo; cuello relajado.", "60 s"],
+        ["Superserie: elevación frontal + encogimientos", "3 × 10 + 12", "shoulder", "10 elevaciones frontales alternas y sin descanso 12 encogimientos de hombros.", "Controla ambos movimientos; no hagas círculos con los hombros.", "75 s"],
+        ["Plancha con toque de hombro", "3 × 10 toques por lado", "plank", "En posición de plancha alta, toca el hombro contrario con una mano sin girar la cadera.", "Separa algo más los pies para estabilizar. Abdomen apretado.", "45–60 s"],
+        ["Hollow hold + dead bug", "3 × 20 s + 8 por lado", "plank", "Mantén la posición hollow (hombros y piernas elevados, zona lumbar pegada al suelo) y luego haz dead bugs lentos.", "Si la espalda se arquea, flexiona más las rodillas.", "45–60 s"]
+      ]
+    },
+    "E": {
+      "title": "Funcional y cardio · Hipertrofia avanzada",
+      "focus": "Circuito metabólico de cuerpo completo",
+      "duration": "30–40 min",
+      "warm": "Marcha rápida 3 min, movilidad de cadera y hombros, 1 vuelta ligera del circuito.",
+      "items": [
+        ["Circuito 1: thruster con mancuernas", "4 rondas × 40 s trabajo / 20 s pausa", "squat", "Sentadilla con mancuernas en los hombros y, al subir, empuja hacia arriba en un solo movimiento.", "Ritmo constante; técnica antes que velocidad. Peso moderado.", "60 s"],
+        ["Circuito 2: remo inclinado rápido", "4 rondas × 40 s trabajo / 20 s pausa", "row", "Remo con carga ligera a ritmo vivo y espalda neutra.", "No redondees la espalda al cansarte; baja el ritmo si pasa.", "60 s"],
+        ["Circuito 3: zancada atrás alterna", "4 rondas × 40 s trabajo / 20 s pausa", "lunge", "Alterna zancadas hacia atrás sosteniendo mancuernas ligeras.", "Rodilla delantera estable; mantén el equilibrio.", "60 s"],
+        ["Circuito 4: swing con mancuerna", "4 rondas × 40 s trabajo / 20 s pausa", "swing", "Impulsa la mancuerna con la cadera hasta el pecho, sin elevarla con los brazos.", "Solo si dominas la bisagra; si no, sustituye por peso muerto rumano.", "60 s"],
+        ["Marcha rápida o pasos laterales (finisher)", "6–8 min", "march", "Mantén un ritmo vivo y constante para bajar pulsaciones de forma activa.", "Aumenta la intensidad gradualmente.", "—"],
+        ["Bird-dog con pausa", "3 × 8 por lado", "plank", "Extiende brazo y pierna contrarios y pausa 3 segundos antes de cambiar.", "Cadera estable, sin rotar el tronco.", "30–45 s"]
+      ]
+    }
+  }
+}
