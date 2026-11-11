@@ -3,4 +3,5 @@
   { "file": "rutina_avanzada_fuerza_potencia.json", "name": "Avanzada · Fuerza y potencia (mancuernas)" },
   { "file": "rutina_home_gym_G5000.json", "name": "Home Gym G5000" },
   { "file": "rutina_home_gym_G5000_avanzada.json", "name": "Home Gym G5000 · Avanzada" }
+  { "file": "rutina_home_gym_G5000_elite.json", "name": "Home Gym G5000 · Elite" }
 ]
