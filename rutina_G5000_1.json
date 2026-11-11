@@ -1,0 +1,162 @@
+{
+  "A": {
+    "nombre": "Día A: Pecho y Tríceps",
+    "ejercicios": [
+      {
+        "nombre": "Press de Pecho Sentado",
+        "estacion": "Módulo de Press Frontal",
+        "series": 4,
+        "repeticiones": "10-12",
+        "descanso": "60s"
+      },
+      {
+        "nombre": "Contractor de Pecho (Peck Deck)",
+        "estacion": "Brazos de Mariposa",
+        "series": 4,
+        "repeticiones": "12",
+        "descanso": "60s"
+      },
+      {
+        "nombre": "Press Inclinado / Agarre Neutro",
+        "estacion": "Módulo de Press Frontal",
+        "series": 4,
+        "repeticiones": "10",
+        "descanso": "60s"
+      },
+      {
+        "nombre": "Extensión de Tríceps en Polea Alta",
+        "estacion": "Polea Alta",
+        "series": 4,
+        "repeticiones": "12-15",
+        "descanso": "45s"
+      },
+      {
+        "nombre": "Press Francés / Patada de Tríceps",
+        "estacion": "Polea Baja",
+        "series": 4,
+        "repeticiones": "12",
+        "descanso": "45s"
+      }
+    ]
+  },
+  "B": {
+    "nombre": "Día B: Espalda y Bíceps",
+    "ejercicios": [
+      {
+        "nombre": "Jalón al Pecho (Lat Pulldown)",
+        "estacion": "Polea Alta + Barra Lat",
+        "series": 4,
+        "repeticiones": "10-12",
+        "descanso": "60s"
+      },
+      {
+        "nombre": "Remo Sentado",
+        "estacion": "Polea Baja",
+        "series": 4,
+        "repeticiones": "10-12",
+        "descanso": "60s"
+      },
+      {
+        "nombre": "Pull-over de Espalda",
+        "estacion": "Polea Alta",
+        "series": 4,
+        "repeticiones": "12",
+        "descanso": "45s"
+      },
+      {
+        "nombre": "Curl de Bíceps de Pie",
+        "estacion": "Polea Baja + Barra recta",
+        "series": 4,
+        "repeticiones": "12",
+        "descanso": "45s"
+      },
+      {
+        "nombre": "Curl Martillo Unilateral",
+        "estacion": "Polea Baja",
+        "series": 4,
+        "repeticiones": "12-15",
+        "descanso": "45s"
+      }
+    ]
+  },
+  "C": {
+    "nombre": "Día C: Piernas y Glúteos",
+    "ejercicios": [
+      {
+        "nombre": "Extensión de Cuádriceps",
+        "estacion": "Módulo de Piernas",
+        "series": 4,
+        "repeticiones": "12-15",
+        "descanso": "60s"
+      },
+      {
+        "nombre": "Curl de Pierna",
+        "estacion": "Accesorio de Piernas / Polea Baja",
+        "series": 4,
+        "repeticiones": "12",
+        "descanso": "60s"
+      },
+      {
+        "nombre": "Patada de Glúteo Trasera",
+        "estacion": "Polea Baja + Tobillera",
+        "series": 4,
+        "repeticiones": "12-15",
+        "descanso": "45s"
+      },
+      {
+        "nombre": "Abducción Lateral de Cadera",
+        "estacion": "Polea Baja + Tobillera",
+        "series": 4,
+        "repeticiones": "15",
+        "descanso": "45s"
+      },
+      {
+        "nombre": "Elevación de Talones (Gemelos)",
+        "estacion": "De pie apoyado en estructura",
+        "series": 4,
+        "repeticiones": "15-20",
+        "descanso": "45s"
+      }
+    ]
+  },
+  "D": {
+    "nombre": "Día D: Hombros y Core",
+    "ejercicios": [
+      {
+        "nombre": "Press de Hombro Sentado",
+        "estacion": "Módulo Frontal",
+        "series": 4,
+        "repeticiones": "10-12",
+        "descanso": "60s"
+      },
+      {
+        "nombre": "Elevaciones Laterales Cruzadas",
+        "estacion": "Polea Baja",
+        "series": 4,
+        "repeticiones": "12-15",
+        "descanso": "45s"
+      },
+      {
+        "nombre": "Remo al Mentón",
+        "estacion": "Polea Baja + Barra recta",
+        "series": 4,
+        "repeticiones": "12",
+        "descanso": "60s"
+      },
+      {
+        "nombre": "Encogimientos de Hombros (Trapecios)",
+        "estacion": "Polea Baja + Barra",
+        "series": 4,
+        "repeticiones": "15",
+        "descanso": "45s"
+      },
+      {
+        "nombre": "Crunch Abdominal de Rodillas",
+        "estacion": "Polea Alta + Cuerda / Agarre",
+        "series": 4,
+        "repeticiones": "15-20",
+        "descanso": "45s"
+      }
+    ]
+  }
+}
