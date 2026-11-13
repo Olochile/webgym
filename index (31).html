@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#14251f">
+<title>Plan de entrenamiento ABCDE · Mancuernas en casa</title>
+<style>
+:root{--bg:#f3f5f2;--card:#fff;--ink:#18251f;--muted:#66736b;--green:#245c45;--lime:#d8f36a;--line:#dce4dd;--soft:#eaf1eb;--orange:#f4b46a}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+header{background:linear-gradient(130deg,#14251f,#245c45);color:white;padding:28px 18px 24px}
+.wrap{max-width:1050px;margin:auto}header .eyebrow{color:var(--lime);font-size:.78rem;font-weight:800;letter-spacing:.15em;text-transform:uppercase}h1{font-size:clamp(1.8rem,5vw,3rem);line-height:1.08;margin:.4rem 0 .7rem}header p{max-width:720px;color:#e3ece5;margin:0}
+.meta{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}.pill{border:1px solid #ffffff40;border-radius:99px;padding:6px 11px;font-size:.84rem}
+main{padding:20px 14px 50px}.toolbar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;justify-content:space-between;margin:4px 0 16px}
+.days{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px;margin-bottom:18px}
+.daybtn{border:1px solid var(--line);background:white;color:var(--ink);border-radius:14px;padding:12px 5px;cursor:pointer;font-weight:750;min-height:72px}
+.daybtn span{display:block;font-size:.76rem;color:var(--muted);font-weight:500;margin-top:2px}
+.daybtn[aria-pressed="true"]{background:var(--green);color:white;border-color:var(--green);box-shadow:0 5px 14px #245c4520}.daybtn[aria-pressed="true"] span{color:#e2f2e6}
+button,.filelabel{font:inherit;cursor:pointer;border:0;border-radius:10px;padding:10px 14px;font-weight:700}
+.primary{background:var(--lime);color:#203024}.secondary{background:white;border:1px solid var(--line);color:var(--ink)}.darkbtn{background:var(--green);color:white}
+.dayhead{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;flex-wrap:wrap;margin:10px 0 16px}.dayhead h2{margin:0;font-size:1.55rem}.dayhead p{margin:4px 0;color:var(--muted)}
+.progressbox{background:#e1e9e2;border-radius:99px;height:8px;overflow:hidden;margin-top:10px;max-width:260px}.progressbar{height:100%;background:var(--green);width:0;transition:width .2s}
+.notice{background:#fff8e9;border:1px solid #f2d7a8;border-radius:14px;padding:13px 15px;margin:15px 0;color:#65491d;font-size:.92rem}
+.summary{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:18px}.stat{background:var(--card);border:1px solid var(--line);padding:13px;border-radius:14px}.stat b{display:block;font-size:1.2rem}.stat small{color:var(--muted)}
+.exercise-list{display:grid;gap:12px}.exercise{background:var(--card);border:1px solid var(--line);border-radius:17px;overflow:hidden}.exercise.done{border-color:#8bb39a;background:#f8fcf8}.exercise.done .ex-title{text-decoration:line-through;text-decoration-color:#8bb39a}
+.ex-top{display:grid;grid-template-columns:125px 1fr;gap:15px;padding:15px;align-items:center}.art{background:var(--soft);border-radius:12px;min-height:112px;display:grid;place-items:center;padding:7px}.art svg{width:100%;height:100px;max-width:150px}.ex-title{font-size:1.08rem;font-weight:800;margin:0 0 4px}.ex-meta{display:flex;gap:6px;flex-wrap:wrap;margin:6px 0}.tag{font-size:.76rem;background:#edf2ee;border-radius:99px;padding:3px 8px;color:#375343}.cue{font-size:.91rem;color:var(--muted);margin:5px 0 0}
+.ex-details{border-top:1px solid var(--line);padding:13px 15px;display:grid;grid-template-columns:1fr 1fr;gap:14px}.ex-details h4{margin:0 0 5px;font-size:.88rem}.ex-details p,.ex-details ul{margin:0;font-size:.88rem;color:#4f5d54}.ex-details ul{padding-left:18px}
+.ex-actions{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;border-top:1px solid var(--line);padding:11px 15px}.checklabel{display:flex;gap:8px;align-items:center;font-weight:700;font-size:.9rem}.checklabel input{width:18px;height:18px;accent-color:var(--green)}.restbtn{background:#eaf1eb;color:var(--green);padding:8px 11px;font-size:.86rem}
+.bottomtools{display:flex;gap:8px;flex-wrap:wrap;margin:22px 0 12px}.fineprint{font-size:.84rem;color:var(--muted);margin-top:24px;border-top:1px solid var(--line);padding-top:15px}
+.timer{position:sticky;bottom:10px;background:#14251f;color:white;border-radius:15px;padding:12px 15px;display:none;align-items:center;justify-content:space-between;gap:10px;box-shadow:0 8px 28px #0002;margin-top:15px}.timer.active{display:flex}.timer strong{font-size:1.5rem;font-variant-numeric:tabular-nums}.timer button{background:var(--lime);color:#1e3024;padding:8px 11px}
+.setctl{display:flex;align-items:center;gap:6px;font-weight:700;font-size:.9rem}.setlabel{color:var(--muted);font-weight:600;margin-right:2px}.setbtn{width:34px;height:34px;padding:0;border-radius:50%;background:#eaf1eb;color:var(--green);font-size:1.15rem;line-height:1}.setcount{min-width:1.3em;text-align:center;font-size:1.2rem;font-variant-numeric:tabular-nums}.settarget{color:var(--muted);font-weight:600}#routineSelect{font:inherit;padding:10px 12px;border-radius:10px;border:1px solid var(--line);background:white;color:var(--ink);min-width:0;max-width:100%;flex:1 1 220px;cursor:pointer}#routineFile{display:none}.empty{background:white;padding:30px;border-radius:15px;text-align:center}
+@media(max-width:600px){.days{gap:5px}.daybtn{font-size:.86rem;min-height:64px}.daybtn span{font-size:.68rem}.ex-top{grid-template-columns:92px 1fr;gap:10px;padding:11px}.art{min-height:92px}.art svg{height:85px}.ex-details{grid-template-columns:1fr;gap:10px}.summary{gap:7px}.stat{padding:10px}.stat b{font-size:1rem}.toolbar{align-items:stretch}.toolbar button,.filelabel{flex:1;text-align:center}.timer{bottom:6px}}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+<div class="eyebrow">Tu plan · fuerza + movimiento</div>
+<h1>Entrena en casa.<br>Progresa con intención.</h1>
+<p>Rutina ABCDE adaptada para entrenar con <strong>mancuernas y peso corporal</strong>. Elige un día para ver únicamente sus ejercicios, marca los completados y usa el temporizador de descanso.</p>
+<div class="meta"><span class="pill">45 años · 73 kg</span><span class="pill">5 días por semana</span><span class="pill">Equipo: mancuernas</span></div>
+</div></header>
+<main class="wrap">
+<div class="toolbar">
+<div><strong>Selecciona tu día</strong><div style="font-size:.85rem;color:var(--muted)">La rutina del día elegido aparece abajo.</div></div>
+<div style="display:flex;gap:8px;flex-wrap:wrap">
+<select id="routineSelect" aria-label="Elegir rutina" hidden><option value="">Rutina original</option></select>
+<button class="secondary" id="resetDay">Reiniciar día</button>
+<button class="darkbtn" id="loadRoutineBtn">＋ Cargar otra rutina</button>
+<input type="file" id="routineFile" accept=".json,application/json">
+</div>
+</div>
+<nav class="days" aria-label="Días de entrenamiento">
+<button class="daybtn" data-day="A" aria-pressed="true">Día A<span>Pecho + tríceps</span></button>
+<button class="daybtn" data-day="B" aria-pressed="false">Día B<span>Espalda + bíceps</span></button>
+<button class="daybtn" data-day="C" aria-pressed="false">Día C<span>Piernas + glúteos</span></button>
+<button class="daybtn" data-day="D" aria-pressed="false">Día D<span>Hombros + abdomen</span></button>
+<button class="daybtn" data-day="E" aria-pressed="false">Día E<span>Funcional + cardio</span></button>
+</nav>
+<section id="dayContent" aria-live="polite"></section>
+<div class="timer" id="timer" role="status"><div><div style="font-size:.78rem;color:#c5d8cb">DESCANSO</div><strong id="timerValue">01:00</strong></div><div style="display:flex;gap:7px"><button id="pauseTimer">Pausar</button><button id="addTimer">+30 s</button><button id="stopTimer">Cerrar</button></div></div>
+<div class="bottomtools">
+<button class="secondary" id="downloadTemplate">Descargar plantilla de rutina (.json)</button>
+<button class="secondary" id="exportProgress">Exportar progreso (.json)</button>
+<button class="secondary" id="importProgress">Importar progreso (.json)</button>
+<input type="file" id="progressFile" accept=".json,application/json" hidden>
+</div>
+<p class="fineprint"><strong>Seguridad y progresión:</strong> antes de empezar, calienta 5–8 minutos y realiza una serie ligera de práctica. Elige una carga que permita completar las repeticiones con técnica controlada, dejando 2–3 repeticiones “en reserva”. Descansa 60–120 s entre series (hasta 2 min en ejercicios exigentes). Si aparece dolor agudo, mareo o falta de aire inusual, detente. Ajusta la rutina si tienes lesiones o condiciones médicas. Las ilustraciones son esquemas orientativos, no sustituyen una demostración técnica.</p>
+</main>
+<script>
+const artSVG = (type) => {
+ const common=`<defs><style>.body{stroke:#245c45;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;fill:none}.limb{stroke:#245c45;stroke-width:5;stroke-linecap:round;fill:none}.weight{fill:#d8f36a;stroke:#245c45;stroke-width:2}.floor{stroke:#b7c9bb;stroke-width:2}</style></defs><path class="floor" d="M8 91 H142"/>`;
+ const drawings={
+ press:`<circle cx="50" cy="34" r="7" fill="#e4b58a"/><path class="body" d="M58 39 L83 51 L104 64"/><path class="limb" d="M70 46 L58 23 L49 16 M82 51 L96 28 L106 21"/><path class="limb" d="M83 51 L91 77 L110 84 M91 77 L72 82"/><rect class="weight" x="39" y="10" width="18" height="6" rx="2"/><rect class="weight" x="100" y="15" width="18" height="6" rx="2"/>`,
+ fly:`<circle cx="70" cy="32" r="7" fill="#e4b58a"/><path class="body" d="M70 40 L70 65"/><path class="limb" d="M70 46 L43 38 L31 45 M70 46 L97 38 L109 45 M70 65 L56 85 M70 65 L84 85"/><rect class="weight" x="20" y="42" width="16" height="6" rx="2"/><rect class="weight" x="104" y="42" width="16" height="6" rx="2"/>`,
+ push:`<circle cx="75" cy="25" r="6" fill="#e4b58a"/><path class="body" d="M69 31 L48 52 L30 64"/><path class="limb" d="M48 52 L61 70 L53 85 M48 52 L37 69 L23 83 M30 64 L16 73 M30 64 L41 75"/><rect class="weight" x="9" y="70" width="14" height="5" rx="2"/>`,
+ row:`<circle cx="64" cy="28" r="7" fill="#e4b58a"/><path class="body" d="M61 36 L82 53 L98 69"/><path class="limb" d="M72 44 L52 56 L44 72 M82 53 L91 37 L101 32 M98 69 L88 86 M98 69 L115 85"/><rect class="weight" x="96" y="26" width="16" height="6" rx="2"/>`,
+ curl:`<circle cx="72" cy="22" r="7" fill="#e4b58a"/><path class="body" d="M72 30 L72 60 L60 84 M72 60 L84 84"/><path class="limb" d="M72 39 L52 55 L60 39 M72 39 L91 54 L84 39"/><rect class="weight" x="48" y="31" width="17" height="6" rx="2"/><rect class="weight" x="79" y="31" width="17" height="6" rx="2"/>`,
+ squat:`<circle cx="73" cy="17" r="7" fill="#e4b58a"/><path class="body" d="M73 25 L73 48 L55 61 L44 82 M73 48 L92 61 L104 82"/><path class="limb" d="M73 31 L52 43 L43 38 M73 31 L94 43 L103 38"/><rect class="weight" x="31" y="34" width="16" height="6" rx="2"/><rect class="weight" x="99" y="34" width="16" height="6" rx="2"/>`,
+ hinge:`<circle cx="67" cy="22" r="7" fill="#e4b58a"/><path class="body" d="M61 28 L82 48 L94 68 L86 86 M94 68 L112 84"/><path class="limb" d="M75 40 L56 55 L47 74 M75 40 L94 50 L103 68"/><rect class="weight" x="37" y="71" width="17" height="6" rx="2"/><rect class="weight" x="97" y="65" width="17" height="6" rx="2"/>`,
+ shoulder:`<circle cx="72" cy="24" r="7" fill="#e4b58a"/><path class="body" d="M72 32 L72 62 L60 85 M72 62 L84 85"/><path class="limb" d="M72 39 L49 20 L45 10 M72 39 L95 20 L99 10"/><rect class="weight" x="36" y="5" width="17" height="6" rx="2"/><rect class="weight" x="91" y="5" width="17" height="6" rx="2"/>`,
+ plank:`<circle cx="111" cy="43" r="6" fill="#e4b58a"/><path class="body" d="M105 48 L75 55 L43 65 L23 76"/><path class="limb" d="M74 55 L70 75 L58 82 M43 65 L35 80 L20 82"/>`,
+ lunge:`<circle cx="72" cy="15" r="7" fill="#e4b58a"/><path class="body" d="M72 23 L72 48 L53 67 L43 85 M72 48 L91 61 L111 62"/><path class="limb" d="M72 30 L51 43 L43 37 M72 30 L93 43 L101 37"/><rect class="weight" x="32" y="34" width="16" height="6" rx="2"/><rect class="weight" x="96" y="34" width="16" height="6" rx="2"/>`,
+ swing:`<circle cx="72" cy="22" r="7" fill="#e4b58a"/><path class="body" d="M69 30 L81 50 L64 65 L55 84 M64 65 L85 84"/><path class="limb" d="M76 40 L59 53 L72 62 M76 40 L93 53 L80 62"/><path class="weight" d="M68 58 Q76 54 84 58 L82 69 Q76 73 70 69 Z"/>`,
+ march:`<circle cx="72" cy="18" r="7" fill="#e4b58a"/><path class="body" d="M72 26 L72 55 L56 72 L48 85 M72 55 L89 68 L105 66"/><path class="limb" d="M72 33 L52 47 L47 38 M72 33 L92 45 L97 36"/><rect class="weight" x="38" y="31" width="16" height="6" rx="2"/><rect class="weight" x="91" y="29" width="16" height="6" rx="2"/>`
+ };
+ return `<svg viewBox="0 0 150 100" role="img" aria-label="Esquema del movimiento">${common}${drawings[type]||drawings.squat}</svg>`;
+};
+const routine = {
+ A:{title:"Pecho y tríceps",focus:"Empuje · torso anterior",duration:"35–45 min",warm:"Movilidad de hombros, círculos de brazos y 1 serie suave de press en el suelo.",items:[
+ ["Press de pecho con mancuernas en el suelo","4 × 8–12","press","Acuéstate boca arriba, rodillas flexionadas. Baja los codos hasta tocar suavemente el suelo y empuja las mancuernas arriba sin chocar entre sí.","Muñecas sobre codos; espalda neutra; controla la bajada.","60–90 s"],
+ ["Press inclinado improvisado: flexión con manos elevadas","3 × 8–12","push","Apoya las manos en una superficie firme y estable; cuerpo recto, pecho hacia el apoyo y vuelve a empujar.","No hundas la zona lumbar. Si es fácil, usa flexiones en el suelo.","60–90 s"],
+ ["Aperturas con mancuernas en el suelo","3 × 10–15","fly","Brazos sobre el pecho con codos ligeramente flexionados. Abre hasta que los brazos contacten suavemente con el suelo y vuelve.","Usa poco peso y un arco cómodo; no fuerces los hombros.","60 s"],
+ ["Extensión de tríceps por encima de la cabeza","3 × 10–12","shoulder","Sujeta una mancuerna con ambas manos, flexiona los codos para bajarla detrás de la cabeza y extiende sin arquear la espalda.","Codos apuntan al frente; abdomen firme.","60 s"],
+ ["Patada de tríceps con mancuerna","3 × 10–15 por lado","row","Inclina el torso con espalda recta. Mantén el brazo junto al cuerpo y estira el codo hacia atrás.","Mueve solo el antebrazo; evita balancearte.","45–60 s"]
+ ]},
+ B:{title:"Espalda y bíceps",focus:"Tracción · postura",duration:"35–45 min",warm:"Movilidad torácica, retracciones escapulares y bisagra de cadera sin peso.",items:[
+ ["Remo inclinado con dos mancuernas","4 × 8–12","row","Inclina el torso desde la cadera, espalda larga. Lleva las mancuernas hacia las costillas y baja despacio.","No redondees la espalda ni tires con impulso.","75–120 s"],
+ ["Remo unilateral con mancuerna","3 × 10–12 por lado","row","Apoya la mano libre en una silla firme. Lleva la mancuerna hacia la cadera, manteniendo el torso estable.","Evita girar el cuerpo; hombro lejos de la oreja.","60–90 s"],
+ ["Pájaros inclinado (deltoide posterior)","3 × 12–15","fly","Con una ligera flexión de codos y torso inclinado, abre los brazos hacia los lados y baja controladamente.","Peso ligero; no encoger los hombros.","60 s"],
+ ["Curl de bíceps alterno","3 × 10–12 por lado","curl","De pie, codos cerca del torso. Flexiona un codo a la vez sin mover el tronco.","No balancees la espalda ni adelantes los codos.","60 s"],
+ ["Curl martillo","3 × 10–12","curl","Sujeta las mancuernas con palmas enfrentadas y flexiona los codos manteniendo esa posición de manos.","Controla la bajada durante 2 segundos.","60 s"]
+ ]},
+ C:{title:"Piernas y glúteos",focus:"Fuerza de tren inferior",duration:"40–50 min",warm:"Camina en el sitio 2 minutos, haz sentadillas sin peso y bisagras de cadera suaves.",items:[
+ ["Sentadilla goblet","4 × 8–12","squat","Sostén una mancuerna pegada al pecho. Lleva la cadera atrás y abajo, mantén el pie apoyado y sube empujando el suelo.","Rodillas siguen la dirección de los pies; profundidad sin dolor.","90–120 s"],
+ ["Peso muerto rumano con mancuernas","4 × 8–12","hinge","Con rodillas ligeramente flexionadas, lleva la cadera hacia atrás y desliza las mancuernas cerca de las piernas. Sube contrayendo glúteos.","La espalda no se redondea; el movimiento nace de la cadera.","90–120 s"],
+ ["Zancada atrás con mancuernas","3 × 8–10 por pierna","lunge","Da un paso hacia atrás, desciende con control y vuelve a la posición inicial. Alterna piernas.","Usa apoyo cercano si necesitas equilibrio; rodilla delantera estable.","75–90 s"],
+ ["Puente de glúteos con mancuerna","3 × 12–15","hinge","Tumbado boca arriba, coloca la mancuerna sobre la cadera con protección. Eleva la pelvis y baja lentamente.","No hiperextiendas la zona lumbar; aprieta glúteos arriba.","60–90 s"],
+ ["Elevación de talones de pie","3 × 15–20","squat","Sube los talones lentamente, pausa arriba y desciende hasta un estiramiento cómodo. Puedes sujetar mancuernas.","Usa apoyo para el equilibrio y evita rebotes.","45–60 s"]
+ ]},
+ D:{title:"Hombros y abdomen",focus:"Estabilidad · control",duration:"35–45 min",warm:"Círculos de hombros, elevaciones de brazos sin peso y respiración abdominal.",items:[
+ ["Press de hombros sentado o de pie","3 × 8–12","shoulder","Desde la altura de los hombros, empuja las mancuernas hacia arriba y baja controladamente.","Aprieta abdomen; no arquees la zona lumbar. Si molesta el hombro, reduce rango o carga.","75–90 s"],
+ ["Elevación lateral","3 × 12–15","fly","Eleva las mancuernas hacia los lados hasta una altura cómoda, con codos suaves; baja despacio.","Usa poco peso y evita balancear el tronco.","60 s"],
+ ["Elevación frontal alterna","2–3 × 10–12","shoulder","Eleva una mancuerna delante de ti hasta la altura del hombro y baja con control.","No necesitas subir más alto; omite si causa molestias.","60 s"],
+ ["Encogimientos de hombros","3 × 12–15","curl","Con brazos largos, eleva los hombros hacia las orejas y baja sin girarlos.","No hagas círculos; cuello relajado.","45–60 s"],
+ ["Plancha","3 × 20–45 s","plank","Apoya antebrazos y puntas de pies. Mantén una línea recta de cabeza a talones respirando con normalidad.","No dejes caer la cadera ni aguantes la respiración.","45–60 s"],
+ ["Dead bug (bicho muerto)","3 × 8–10 por lado","plank","Boca arriba, brazos arriba y rodillas a 90°. Extiende brazo y pierna contrarios sin despegar la zona lumbar del suelo.","Hazlo lento; reduce el recorrido si la espalda se arquea.","45–60 s"]
+ ]},
+ E:{title:"Funcional y cardio",focus:"Acondicionamiento · cuerpo completo",duration:"25–35 min",warm:"Marcha rápida 3 minutos, movilidad de cadera y hombros. Mantén intensidad moderada al empezar.",items:[
+ ["Marcha rápida en el sitio","3 × 60 s","march","Marcha con postura alta, moviendo los brazos. Aumenta el ritmo sin perder control.","Debe permitirte hablar en frases cortas; adapta al nivel del día.","30–45 s"],
+ ["Sentadilla con peso corporal","3 × 12–15","squat","Baja hasta una profundidad cómoda y vuelve a subir. Mantén el peso repartido en todo el pie.","Prioriza técnica; no hace falta saltar.","45–60 s"],
+ ["Swing con mancuerna, solo si dominas la bisagra","3 × 12","swing","Sujeta una mancuerna con ambas manos. Lleva la cadera atrás y extiéndela para impulsar el peso hasta la altura del pecho, sin elevarlo con los brazos.","No es una sentadilla ni un levantamiento con la espalda. Sustituye por peso muerto rumano si no conoces la técnica.","60–90 s"],
+ ["Remo inclinado ligero","3 × 12","row","Haz el remo con una carga ligera y un ritmo constante, sin impulso.","Mantén espalda neutra y abdomen firme.","45–60 s"],
+ ["Caminata rápida o pasos laterales","6–10 min","march","Camina a paso vivo o realiza pasos laterales controlados en un espacio despejado.","Alternativa de bajo impacto al HIIT; aumenta gradualmente.","—"],
+ ["Bird-dog","2–3 × 8 por lado","plank","En cuatro apoyos, extiende brazo y pierna contrarios. Pausa un instante y cambia de lado.","Cadera estable, sin girar el tronco.","30–45 s"]
+ ]}
+};
+let selectedDay="A", customRoutine=null, timerInterval=null, seconds=60, paused=false;
+const dayContent=document.getElementById("dayContent");
+let routineId="",state={};
+const STATE_PREFIX="avance:";
+function loadState(){try{state=JSON.parse(localStorage.getItem(STATE_PREFIX+routineId)||"{}")||{}}catch(_){state={}}}
+function saveState(){try{localStorage.setItem(STATE_PREFIX+routineId,JSON.stringify(state))}catch(_){}}
+function peek(day,i){return (state[day]&&state[day][i])||{s:0,d:false}}
+function getEx(day,i){state[day]=state[day]||{};return state[day][i]||(state[day][i]={s:0,d:false})}
+function targetSets(p){const m=String(p).match(/^\s*(\d+)(?:\s*[–-]\s*(\d+))?\s*(?:rondas?\s*)?×/i);return m?parseInt(m[2]||m[1],10):null}
+function activeRoutine(day=selectedDay){return customRoutine?.[day]||routine[day]}
+loadState();
+function refreshProgress(){const key=selectedDay,items=activeRoutine()?.items||[];let done=0,sets=0;items.forEach((_,i)=>{const e=peek(key,i);if(e.d)done++;sets+=e.s});const bar=dayContent.querySelector(".progressbar");if(bar)bar.style.width=(items.length?done/items.length*100:0)+"%";const s=dayContent.querySelector(".dayhead small");if(s)s.textContent=`${done} de ${items.length} ejercicios completados · ${sets} series hechas`}
+function refreshEx(i){const key=selectedDay,e=peek(key,i),card=document.getElementById(`ex-${key}-${i}`);if(!card)return;card.classList.toggle("done",!!e.d);card.querySelector('input[type="checkbox"]').checked=!!e.d;card.querySelector(".setcount").textContent=e.s;refreshProgress()}
+function bump(day,i,delta){const e=getEx(day,i),t=targetSets(activeRoutine(day).items[i][1]);e.s=Math.max(0,e.s+delta);if(delta>0&&t&&e.s>=t)e.d=true;if(delta<0&&t&&e.s<t)e.d=false;saveState();refreshEx(i)}
+function render(){
+ const d=activeRoutine(),key=selectedDay;
+ document.querySelectorAll(".daybtn").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.day===key)));
+ if(!d){dayContent.innerHTML='<div class="empty">No hay rutina cargada para este día.</div>';return}
+ const items=d.items||[];
+ dayContent.innerHTML=`<div class="dayhead"><div><h2>Día ${key} · ${d.title}</h2><p>${d.focus||"Rutina personalizada"} · Tiempo estimado: ${d.duration||"30–45 min"}</p><div class="progressbox"><div class="progressbar" style="width:0"></div></div><small style="color:var(--muted)"></small></div><button class="primary" id="startRest">Iniciar descanso · 60 s</button></div>
+ <div class="notice"><strong>Antes de empezar:</strong> ${d.warm||"Calienta 5–8 minutos."} Cada vez que pulses <em>Serie lista · descansar</em> se suma 1 al contador de series de ese ejercicio. Al llegar al total, el ejercicio se marca como completado.</div>
+ <div class="summary"><div class="stat"><b>${items.length}</b><small>Ejercicios</small></div><div class="stat"><b>${d.duration||"30–45 min"}</b><small>Duración estimada</small></div><div class="stat"><b>2–3</b><small>Repeticiones en reserva</small></div></div>
+ <div class="exercise-list">${items.map((x,i)=>{const e=peek(key,i),t=targetSets(x[1]);return `<article class="exercise ${e.d?'done':''}" id="ex-${key}-${i}" data-index="${i}"><div class="ex-top"><div class="art">${artSVG(x[2])}</div><div><h3 class="ex-title">${i+1}. ${x[0]}</h3><div class="ex-meta"><span class="tag">${x[1]}</span><span class="tag">Descanso: ${x[5]||"60 s"}</span></div><p class="cue">${x[3]}</p></div></div><div class="ex-details"><div><h4>Cómo hacerlo</h4><p>${x[3]}</p></div><div><h4>Puntos clave</h4><p>${x[4]}</p></div></div><div class="ex-actions"><label class="checklabel"><input type="checkbox" ${e.d?'checked':''}> Marcar como completado</label><div class="setctl"><span class="setlabel">Series</span><button type="button" class="setbtn" data-act="dec" aria-label="Restar una serie">−</button><b class="setcount" aria-live="polite">${e.s}</b>${t?`<span class="settarget">/ ${t}</span>`:""}<button type="button" class="setbtn" data-act="inc" aria-label="Sumar una serie">+</button></div><button class="restbtn" data-rest="${x[5]||"60 s"}">⏱ Serie lista · descansar</button></div></article>`}).join("")}</div>`;
+ refreshProgress();
+}
+dayContent.addEventListener("click",ev=>{const b=ev.target.closest("button");if(!b)return;if(b.id==="startRest"){startTimer(60);return}const art=b.closest(".exercise");if(!art)return;const i=+art.dataset.index,key=selectedDay;if(b.dataset.rest){bump(key,i,1);startTimer(parseRest(b.dataset.rest))}else if(b.dataset.act==="inc")bump(key,i,1);else if(b.dataset.act==="dec")bump(key,i,-1)});
+dayContent.addEventListener("change",ev=>{const c=ev.target.closest('input[type="checkbox"]');if(!c)return;const i=+c.closest(".exercise").dataset.index;getEx(selectedDay,i).d=c.checked;saveState();refreshEx(i)});
+function parseRest(s){const m=String(s).match(/(\d+)/);return m?Math.max(30,Math.min(180,parseInt(m[1],10))):60}
+function formatTime(n){return `${String(Math.floor(n/60)).padStart(2,"0")}:${String(n%60).padStart(2,"0")}`}
+function startTimer(n){clearInterval(timerInterval);seconds=n;paused=false;document.getElementById("timer").classList.add("active");document.getElementById("timerValue").textContent=formatTime(seconds);document.getElementById("pauseTimer").textContent="Pausar";timerInterval=setInterval(()=>{if(!paused&&seconds>0){seconds--;document.getElementById("timerValue").textContent=formatTime(seconds);if(seconds===0){clearInterval(timerInterval);document.getElementById("pauseTimer").textContent="Terminado";}}},1000)}
+document.getElementById("pauseTimer").onclick=()=>{paused=!paused;document.getElementById("pauseTimer").textContent=paused?"Continuar":"Pausar"};
+document.getElementById("addTimer").onclick=()=>{seconds+=30;document.getElementById("timerValue").textContent=formatTime(seconds);if(!timerInterval)startTimer(seconds)};
+document.getElementById("stopTimer").onclick=()=>{clearInterval(timerInterval);timerInterval=null;document.getElementById("timer").classList.remove("active")};
+document.querySelectorAll(".daybtn").forEach(b=>b.addEventListener("click",()=>{selectedDay=b.dataset.day;render()}));
+document.getElementById("resetDay").onclick=()=>{if(confirm("¿Reiniciar las series y marcas de este día?")){delete state[selectedDay];saveState();render()}};
+document.getElementById("loadRoutineBtn").onclick=()=>document.getElementById("routineFile").click();
+const routineSelect=document.getElementById("routineSelect");
+const LAST_KEY="rutinaElegida";
+const NO_LIST=/^(rutinas|manifest|package|package-lock|tsconfig|plantilla.*|progreso.*)\.json$/i;
+function prettyName(f){return f.replace(/\.json$/i,"").replace(/[_-]+/g," ").replace(/^rutina\s+/i,"")}
+function parseRoutine(parsed){const c=parsed&&(parsed.routine||parsed);if(!c||!["A","B","C","D","E"].some(k=>c[k]))throw new Error("El archivo no contiene días A, B, C, D o E.");return c}
+function applyRoutine(c,id=""){customRoutine=c;routineId=id;loadState();dayContent.innerHTML="";render()}
+async function chooseRoutine(file){if(!file){applyRoutine(null,"")}else{const r=await fetch(encodeURI(file),{cache:"no-cache"});if(!r.ok)throw new Error("HTTP "+r.status);applyRoutine(parseRoutine(await r.json()),file)}try{localStorage.setItem(LAST_KEY,file)}catch(_){}}
+function showManualOption(name){let o=routineSelect.querySelector('option[value="__manual"]');if(!o){o=document.createElement("option");o.value="__manual";routineSelect.appendChild(o)}o.textContent="Archivo: "+name;routineSelect.value="__manual";routineSelect.hidden=false}
+async function listFromManifest(){const r=await fetch("rutinas.json",{cache:"no-cache"});if(!r.ok)throw new Error("sin rutinas.json");const m=await r.json();const arr=Array.isArray(m)?m:(m.rutinas||[]);return arr.map(x=>typeof x==="string"?{file:x,name:prettyName(x)}:{file:x.file,name:x.name||prettyName(x.file||"")}).filter(x=>x.file)}
+async function listFromGitHub(){const h=location.hostname;if(!/\.github\.io$/i.test(h))throw new Error("no es GitHub Pages");const owner=h.split(".")[0];const parts=location.pathname.split("/").filter(Boolean);if(parts.length&&/\.[a-z0-9]+$/i.test(parts[parts.length-1]))parts.pop();const repo=parts.length?parts.shift():owner+".github.io";const r=await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${parts.join("/")}`);if(!r.ok)throw new Error("GitHub API "+r.status);return (await r.json()).filter(x=>x.type==="file"&&/\.json$/i.test(x.name)&&!NO_LIST.test(x.name)).map(x=>({file:x.name,name:prettyName(x.name)}))}
+routineSelect.addEventListener("change",async()=>{const file=routineSelect.value;if(file==="__manual")return;try{await chooseRoutine(file)}catch(err){alert("No se pudo cargar la rutina: "+err.message);routineSelect.value="";applyRoutine(null,"")}});
+document.getElementById("routineFile").addEventListener("change",async e=>{const file=e.target.files[0];if(!file)return;try{applyRoutine(parseRoutine(JSON.parse(await file.text())),"archivo:"+file.name);showManualOption(file.name)}catch(err){alert("No se pudo cargar la rutina: "+err.message)}e.target.value=""});
+const KNOWN_FILES=[{file:"rutina_avanzada_hipertrofia.json",name:"Avanzada · Hipertrofia (mancuernas)"},{file:"rutina_avanzada_fuerza_potencia.json",name:"Avanzada · Fuerza y potencia (mancuernas)"},{file:"rutina_home_gym_G5000.json",name:"Home Gym G5000"},{file:"rutina_home_gym_G5000_avanzada.json",name:"Home Gym G5000 · Avanzada"}];
+async function listFromKnown(){const ok=await Promise.all(KNOWN_FILES.map(async x=>{try{return (await fetch(encodeURI(x.file),{cache:"no-cache"})).ok}catch(_){return false}}));return KNOWN_FILES.filter((_,k)=>ok[k])}
+(async()=>{let list=[];for(const src of [listFromManifest,listFromGitHub,listFromKnown]){try{list=await src();if(list.length)break}catch(_){}}
+ list.forEach(x=>{const o=document.createElement("option");o.value=x.file;o.textContent=x.name;routineSelect.appendChild(o)});
+ routineSelect.hidden=!list.length;
+ let last="";try{last=localStorage.getItem(LAST_KEY)||""}catch(_){}
+ if(last&&list.some(x=>x.file===last)){routineSelect.value=last;routineSelect.dispatchEvent(new Event("change"))}
+})();
+function download(name,content,type="application/json"){const blob=new Blob([content],{type});const url=URL.createObjectURL(blob);const a=document.createElement("a");a.href=url;a.download=name;a.click();URL.revokeObjectURL(url)}
+document.getElementById("downloadTemplate").onclick=()=>download("plantilla-rutina-ABCDE.json",JSON.stringify({routine:{A:{title:"Pecho y tríceps",focus:"Rutina personalizada",duration:"35–45 min",warm:"Calentamiento",items:[["Nombre del ejercicio","3 × 10–12","press","Cómo hacerlo","Puntos técnicos","60 s"]]},B:{title:"Espalda y bíceps",items:[]},C:{title:"Piernas y glúteos",items:[]},D:{title:"Hombros y abdomen",items:[]},E:{title:"Funcional y cardio",items:[]}}},null,2));
+function currentRoutineName(){return routineId===""?"Rutina original":(routineSelect.selectedOptions[0]?.textContent||routineId)}
+document.getElementById("exportProgress").onclick=()=>{const out={exportado:new Date().toISOString(),version:2,rutina:{id:routineId,nombre:currentRoutineName()},dias:{}};for(const day of ["A","B","C","D","E"]){const d=activeRoutine(day);out.dias[day]={titulo:d.title,ejercicios:(d.items||[]).map((x,i)=>{const e=peek(day,i);return{nombre:x[0],prescripcion:x[1],series_hechas:e.s,series_objetivo:targetSets(x[1]),completado:!!e.d}})}}download("progreso-entrenamiento-"+new Date().toLocaleDateString("sv-SE")+".json",JSON.stringify(out,null,2))};
+async function importProgress(file){
+ const data=JSON.parse(await file.text());
+ if(!data||typeof data.dias!=="object"||!data.dias)throw new Error("No parece un archivo de progreso exportado por esta página.");
+ let nota="";
+ const rid=data.rutina&&typeof data.rutina.id==="string"?data.rutina.id:null;
+ if(rid!==null&&rid!==routineId){
+  if(rid===""||[...routineSelect.options].some(o=>o.value===rid)){routineSelect.value=rid;await chooseRoutine(rid)}
+  else nota="\n\nEl progreso es de otra rutina ("+(data.rutina.nombre||rid)+") que no está en la lista; se aplicó por nombre de ejercicio a la rutina actual."
+ }
+ let ok=0,skip=0;
+ for(const day of ["A","B","C","D","E"]){
+  const exs=data.dias[day]&&data.dias[day].ejercicios;if(!Array.isArray(exs))continue;
+  const items=activeRoutine(day)?.items||[],nd={};
+  exs.forEach((ex,k)=>{
+   const i=(items[k]&&items[k][0]===ex.nombre)?k:items.findIndex(x=>x[0]===ex.nombre);
+   if(i<0){skip++;return}
+   const t=targetSets(items[i][1]);
+   const s=Number.isFinite(ex.series_hechas)?Math.max(0,Math.floor(ex.series_hechas)):(ex.completado&&t?t:0);
+   nd[i]={s,d:!!ex.completado};ok++;
+  });
+  if(Object.keys(nd).length)state[day]=nd;
+ }
+ saveState();render();
+ alert("Progreso importado: "+ok+" ejercicios restaurados"+(skip?", "+skip+" sin coincidencia":"")+"."+nota);
+}
+document.getElementById("importProgress").onclick=()=>document.getElementById("progressFile").click();
+document.getElementById("progressFile").addEventListener("change",async e=>{const f=e.target.files[0];if(!f)return;try{await importProgress(f)}catch(err){alert("No se pudo importar el progreso: "+err.message)}e.target.value=""});
+render();
+</script>
+</body></html>
